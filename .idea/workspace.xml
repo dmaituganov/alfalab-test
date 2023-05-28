@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53afe920-a842-449d-94b8-788a9995fa51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/config/SysPropsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/dao/DAOProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/dao/DocumentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/entities/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/CustomPhysicalNamingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/HibernateDAOProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/dao/DocumentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/dao/HibernateDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/dao/PersonDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/docker/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/docker/compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/docker/postgresql/config/pg_hba.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/docker/postgresql/config/postgresql.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/docker/postgresql/initdb/init.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/docker/postgresql/initdb/sql/users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/finder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/finder/src/main/java/org/dmaituganov/alfalab/test/task1/finder/FindDocuments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/generator/src/main/java/org/dmaituganov/alfalab/test/task1/generator/GenerateDocuments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/migrator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/migrator/src/main/java/org/dmaituganov/alfalab/test/task1/migrator/Migrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/migrator/src/main/resources/db/migration/V0__Initial_script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/src/main/java/org/dmaituganov/alfalab/test/task2/Grouper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/src/main/java/org/dmaituganov/alfalab/test/task2/NamedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/main/java/org/dmaituganov/alfalab/test/task3/AbstractPrimeNumbersFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/main/java/org/dmaituganov/alfalab/test/task3/PrimeNumbersFinderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/main/java/org/dmaituganov/alfalab/test/task3/Task3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/main/java/org/dmaituganov/alfalab/test/task3/ThreadContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/test/java/org/dmaituganov/alfalab/test/task3/BigIntegerIsPrimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/test/java/org/dmaituganov/alfalab/test/task3/PrimeNumbersFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/src/test/java/org/dmaituganov/alfalab/test/task3/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t1_result/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t1_result/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t2_result/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t2_result/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t2_result/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t3_result/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t3_result/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t3_result/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t3_result/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t4_result/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t4_result/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t4_result/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t4_result/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t4_result/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t5_result/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t5_result/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t5_result/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t5_result/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t5_result/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t5_result/Thread5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Thread5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/t6_result/Thread6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/1/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/1/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/2/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/2/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/2/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/3/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/3/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/3/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/3/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/4/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/4/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/4/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/4/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/4/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/5/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/5/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/5/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/5/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/5/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/5/Thread5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Thread5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/6/Thread6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/7/Thread7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/compare_results/8/Thread8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/is_prime/probable/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/is_prime/probable/Thread1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/is_prime/strict/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task3/tests/is_prime/strict/Thread1.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QFAK73pcknYEETJ1i7N87Fdmql" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/dm/work/alfalab/test/task2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task2" />
+      <recent name="$PROJECT_DIR$/task1/migrator/src/main/java/org/dmaituganov/alfalab/test/task1/migrator/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/task1/migrator/src/main/java/org/dmaituganov/alfalab/test/task1/migrator" />
+      <recent name="$PROJECT_DIR$/task1" />
+      <recent name="$PROJECT_DIR$/task1/migrator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/task1/migrator/src/main/resources/db" />
+      <recent name="$PROJECT_DIR$/task1/migrator/src/main/resources" />
+      <recent name="$PROJECT_DIR$/task1/migrator/src/main" />
+      <recent name="$PROJECT_DIR$/task1/migrator" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="org.dmaituganov.alfalab.test.task3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.dmaituganov.alfalab.test.task3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.dmaituganov.alfalab.test.task1.common.db.entities" />
+      <recent name="org.dmaituganov.alfalab.test.task1.common.db.dao" />
+      <recent name="org.dmaituganov.alfalab.test.task1.migrator" />
+      <recent name="org.dmaituganov.alfalab.test.task3" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FindDocuments">
+    <configuration name="FindDocuments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dmaituganov.alfalab.test.task1.finder.FindDocuments" />
+      <module name="test-task1-finder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmaituganov.alfalab.test.task1.finder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateDocuments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dmaituganov.alfalab.test.task1.generator.GenerateDocuments" />
+      <module name="test-task1-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmaituganov.alfalab.test.task1.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Migrate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dmaituganov.alfalab.test.task1.migrator.Migrate" />
+      <module name="test-task1-migrator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmaituganov.alfalab.test.task1.migrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigIntegerIsPrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-task3" />
+      <option name="PACKAGE_NAME" value="org.dmaituganov.alfalab.test.task3" />
+      <option name="MAIN_CLASS_NAME" value="org.dmaituganov.alfalab.test.task3.BigIntegerIsPrimeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumbersFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmaituganov.alfalab.test.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dmaituganov.alfalab.test.task3" />
+      <option name="MAIN_CLASS_NAME" value="org.dmaituganov.alfalab.test.task3.PrimeNumbersFinderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TestTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TestTask" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FindDocuments" />
+      <item itemvalue="Application.GenerateDocuments" />
+      <item itemvalue="Application.Migrate" />
+      <item itemvalue="JUnit.BigIntegerIsPrimeTest" />
+      <item itemvalue="JUnit.PrimeNumbersFinderTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindDocuments" />
+        <item itemvalue="Application.GenerateDocuments" />
+        <item itemvalue="Application.Migrate" />
+        <item itemvalue="JUnit.PrimeNumbersFinderTest" />
+        <item itemvalue="JUnit.BigIntegerIsPrimeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53afe920-a842-449d-94b8-788a9995fa51" name="Changes" comment="" />
+      <created>1684938891570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684938891570</updated>
+      <workItem from="1684938892700" duration="221000" />
+      <workItem from="1684939148902" duration="4000" />
+      <workItem from="1684939344298" duration="1366000" />
+      <workItem from="1684941175376" duration="98162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task3/src/main/java/org/dmaituganov/alfalab/test/task3/ThreadContext.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/CustomPhysicalNamingStrategy.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task1/common/src/main/java/org/dmaituganov/alfalab/test/task1/common/db/hibernate/CustomPhysicalNamingStrategy.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.2.2.Final/hibernate-core-6.2.2.Final-sources.jar!/org/hibernate/boot/model/naming/PhysicalNamingStrategyStandardImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

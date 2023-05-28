@@ -1,0 +1,21 @@
+services:
+  alfalab-task1-postgresql:
+    container_name: alfalab-task1-postgresql
+    image: postgres:15.3
+    environment:
+      POSTGRES_USER: ${PG_ADMIN_USER}
+      POSTGRES_PASSWORD: ${PG_ADMIN_PASS}
+      POSTGRES_DB: ${PG_TASK1_DB}
+      PG_TASK1_USER: ${PG_TASK1_USER}
+      PG_TASK1_PASS: ${PG_TASK1_PASS}
+    volumes:
+      - ${DATA_PATH}/postgresql:/var/lib/postgresql/data
+      - ./postgresql/initdb:/docker-entrypoint-initdb.d
+      - ./postgresql/config:/etc/postgresql/config
+    ports:
+      - "${PG_PORT}:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${PG_TASK1_USER} -d ${PG_TASK1_DB}' || exit 1" ]
+      interval: 10s
+      timeout: 3s
+      retries: 10
