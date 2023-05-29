@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NonNull;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.Closeable;
 import java.io.File;
@@ -76,6 +77,7 @@ public abstract class AbstractPrimeNumbersFinder<N extends Number> implements Cl
     }
 
     /** Returns Null if maximal natural number has been reached. */
+    @Nullable
     protected N getNextNaturalNumber() {
         if (compare(currentNaturalNumber.get(), stopAt) >= 0) {
             return null;
@@ -91,7 +93,7 @@ public abstract class AbstractPrimeNumbersFinder<N extends Number> implements Cl
 
     public void findPrimaryNumbers() {
         long currentTime = System.currentTimeMillis();
-        this.threads.forEach(ForkJoinTask::fork);
+        this.threads.forEach(pool::execute);
         this.threads.forEach(ForkJoinTask::join);
         log.info("{} completed in {}ms", this, System.currentTimeMillis() - currentTime);
     }
